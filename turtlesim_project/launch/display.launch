@@ -1,0 +1,4 @@
+<launch>
+  <node name="turlesim_project" pkg="turtlesim_project" type="spidertask.py" />
+  <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" />
+</launch>
